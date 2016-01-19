@@ -17,6 +17,9 @@ from django.conf.urls import url
 from django.contrib import admin
 from joins import views
 
+print("HELLO")
+print("HELLO")
+
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^admin/', admin.site.urls),
